@@ -3,11 +3,11 @@
  * Module dependencies.
  */
 
-var style = require('style');
-var inherit = require('inherit');
-var favicon = require('favicon');
-var autoscale = require('autoscale-canvas');
-var Pie = require('pie');
+var style = require('component-style');
+var inherit = require('component-inherit');
+var favicon = require('component-favicon');
+var autoscale = require('component-autoscale-canvas');
+var Pie = require('component-pie');
 
 /**
  * Expose `Piecon()`.

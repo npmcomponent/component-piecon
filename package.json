@@ -1,19 +1,21 @@
 {
-  "name": "piecon-component",
-  "description": "Pie charts for component/favicon",
+  "name": "component-piecon",
+  "description": "Pie chart favicons to indicator progress",
   "version": "0.0.3",
-  "keywords": ["pie", "chart", "favicon", "progress"],
+  "keywords": [
+    "pie",
+    "chart",
+    "favicon",
+    "progress"
+  ],
+  "styles": [
+    "piecon.css"
+  ],
   "dependencies": {
-    "style-component": "*",
-    "inherit-component": "*",
-    "pie-component": "*",
-    "autoscale-canvas": "*",
-    "favicon-component": "1.0.3"
-  },
-  "component": {
-    "scripts": {
-      "piecon/index.js": "index.js"
-    },
-    "styles": ["piecon.css"]
+    "component-style": "git://github.com/npmcomponent/component-style.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-pie": "git://github.com/npmcomponent/component-pie.git",
+    "component-favicon": "git://github.com/npmcomponent/component-favicon.git",
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git"
   }
 }
